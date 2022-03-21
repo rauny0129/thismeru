@@ -65,7 +65,7 @@ const App = (props) => {
   }
 
   const end = () => {
-    setMent('HiMERU가 화났습니다.');
+    setMent('HiMERU가 빡쳤습니다.');
     setJpg(jpg6);
     if(exit==='정말로?'){
       setJpg(jpg9);
@@ -103,7 +103,7 @@ const App = (props) => {
             onClick={()=>{move()}} 
             style={{width: '150px', height: '60px', marginRight: '5%', fontSize:"20px"}}>행앗하기</Button>
           <Button variant="secondary" 
-            onMouseOver={()=>{setJpg(jpg7);}}
+            onMouseOver={()=>{setJpg(jpg7);  setMent('HiMERU가 화났습니다.');}}
             onMouseOut={()=>{setJpg(jpg2);  setMent('HiMERU가 기뻐합니다.'); setExit('나가기')}}
             onClick={()=>{end()}} 
             style={{width: '150px', height: '60px', marginLeft: '5%', fontSize:"20px"}}>{exit}</Button>
