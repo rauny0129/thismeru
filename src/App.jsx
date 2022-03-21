@@ -61,7 +61,7 @@ const App = (props) => {
     setShow(false);
     setTimeout(() => {
       window.location.replace("https://hangouts.google.com/call/16DvVB6yAYalRfg9bffUACEM");
-    },1500);
+    },1000);
   }
 
   const end = () => {
