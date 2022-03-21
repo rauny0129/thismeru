@@ -65,9 +65,9 @@ const App = (props) => {
   }
 
   const end = () => {
-    setMent('HiMERU가 빡쳤습니다.');
+    setMent('HiMERU가 화났습니다.');
     setJpg(jpg6);
-    if(exit==='진짜 나가기?'){
+    if(exit==='정말로?'){
       setJpg(jpg9);
       setMent('HiMERU가 찾아옵니다.');
       setShow(false);
@@ -79,7 +79,7 @@ const App = (props) => {
         },500);
       },1500);
     }
-    setExit('진짜 나가기?');
+    setExit('정말로?');
   }
 
 
@@ -98,7 +98,7 @@ const App = (props) => {
       { show &&     
         <div style={{display: 'flex', justifyContent: 'center', marginTop: '30px'}}>
           <Button variant="secondary" 
-            onMouseOver={()=>{setJpg(jpg12); setMent('HiMERU가 존나 기뻐합니다.');}}
+            onMouseOver={()=>{setJpg(jpg12); setMent('HiMERU가 사랑합니다.');}}
             onMouseOut={()=>{sad()}}
             onClick={()=>{move()}} 
             style={{width: '150px', height: '60px', marginRight: '5%', fontSize:"20px"}}>행앗하기</Button>
