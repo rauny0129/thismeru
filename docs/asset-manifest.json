@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/thismeru/static/css/main.1a8a0596.css",
-    "main.js": "/thismeru/static/js/main.3fa71718.js",
+    "main.js": "/thismeru/static/js/main.c7ecfbc8.js",
     "static/media/11.jpg": "/thismeru/static/media/11.c5d61d0bd5fe07e3bd0a.jpg",
     "static/media/9.jpg": "/thismeru/static/media/9.3d57b6192a982fe84e17.jpg",
     "static/media/10.jpg": "/thismeru/static/media/10.5c29740a88b91b57d93d.jpg",
@@ -15,12 +15,13 @@
     "static/media/3.jpg": "/thismeru/static/media/3.c00bc0443925ed4afd13.jpg",
     "static/media/7.jpg": "/thismeru/static/media/7.ca2ebf37bbe29a9ea9ed.jpg",
     "static/media/6.jpg": "/thismeru/static/media/6.7c6472d29869f52bd7a4.jpg",
+    "static/media/행앗할래요.gif": "/thismeru/static/media/행앗할래요.9a8809e985e118fb73a0.gif",
     "index.html": "/thismeru/index.html",
     "main.1a8a0596.css.map": "/thismeru/static/css/main.1a8a0596.css.map",
-    "main.3fa71718.js.map": "/thismeru/static/js/main.3fa71718.js.map"
+    "main.c7ecfbc8.js.map": "/thismeru/static/js/main.c7ecfbc8.js.map"
   },
   "entrypoints": [
     "static/css/main.1a8a0596.css",
-    "static/js/main.3fa71718.js"
+    "static/js/main.c7ecfbc8.js"
   ]
 }

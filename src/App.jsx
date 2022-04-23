@@ -3,6 +3,7 @@ import Header from './Header';
 import jpg0 from './image/0.jpg'
 import jpg1 from './image/1.jpg'
 import MsgToast from './MsgToast';
+import PopupToast from './PopupToast';
 import RedirectButton from './RedirectButton';
 
 
@@ -56,6 +57,7 @@ const App = () => {
       { show &&     
         <RedirectButton handleMent={handleMent} handleJpg={handleJpg} handleShow={handleShow}/>
       }   
+      <PopupToast/>
       <MsgToast/>
     </div>
   )
